@@ -1,8 +1,13 @@
-numero = int(input("Digite um número: "))
+# EXERCÍCIO 14: Verificador de Número Positivo
+# Enunciado: Escreva um código que diga se um número digitado é positivo, negativo ou zero.
 
-if numero > 0:
-  print("Positivo")
-elif numero < 0:
-  print("Negativo")
+# ENTRADA
+valor = float(input("Digite um número: "))
+
+# PROCESSAMENTO + SAÍDA
+if valor > 0:
+    print("Número positivo")
+elif valor < 0:
+    print("Número negativo")
 else:
-  print("Zero")
+    print("É zero")
